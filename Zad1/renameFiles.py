@@ -1,10 +1,10 @@
 import os
 import sys
 
-path = sys.argv[1]
-newFileName = sys.argv[2]
+path = sys.argv[1] 	  	# Argument przekazany do skryptu - nazwa/sciezka katalogu
+newFileName = sys.argv[2] 	# Argument przekazany do skryptu - nowa nazwa plikow
 
-files = os.listdir(path)
+files = os.listdir(path)	# Lista plikow w danym katalogu
 i = 1
 
-# Dokończ program tak aby zmieniał nazwy utworzonych plików w podanym katalogu
+# Dokoncz program tak aby zmienial nazwy utworzonych plikow w podanym katalogu

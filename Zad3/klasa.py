@@ -13,7 +13,7 @@ def zapisz(fileName):
    image.save(fileName)
 
 	
-# Nalezy stworzyc klase "Kolo" oraz jej metody, 
+# Nalezy stworzyc klase "Kolo" oraz jej metody na podstawie powyższych funkcji, 
 # tak aby dzialal ponizszy kod:
 
 kolo = Kolo()

@@ -1,7 +1,7 @@
 import subprocess
 import re
 
-### Wywolac skrypt ping.sh oraz zapsać rezultat do zmiennej pingResult
+### Należy wywolac skrypt ping.sh oraz zapisać rezultat do zmiennej pingResult
 
 pingResult = 
 ###

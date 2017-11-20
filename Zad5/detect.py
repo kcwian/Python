@@ -9,6 +9,12 @@ faces = faceCascade.detectMultiScale(img,scaleFactor=1.1,minSize=(30, 30),minNei
 for (x, y, w, h) in faces:
 		cv2.rectangle(img, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
+### Czesc programu sluzaca do wykrywania oczu na obrazie
+
+
+
+
+###
 
 cv2.imshow("Faces found", img)
 key = cv2.waitKey(0)

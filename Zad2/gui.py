@@ -17,4 +17,11 @@ eFolderName = Entry(top)
 eFolderName.pack()
 eFolderName.insert(END,"folder name")
 
+### Dalsza czesc programu - dodanie przycisku oraz pol tekstowych do funkcji renameFiles
+
+
+
+
+###
+
 top.mainloop()

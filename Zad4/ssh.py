@@ -1,8 +1,8 @@
 import paramiko
 
-ip='192.168.1.120'
+ip=''
 port=22
-username='pi'
+username=''
 password=''
 
 cmd='ls' 
